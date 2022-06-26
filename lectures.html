@@ -14,14 +14,25 @@
             padding: 0
         }
 
-        ddd {
-            float: right;
-        }
+        /*ddd {*/
+        /*    float: right;*/
+        /*}*/
         .col-15 {
             padding: 10px;
         }
+
         li{
             margin-left: 20px;
+        }
+
+        .photo{
+            float:right;
+            margin-bottom: 5px;
+            margin-left: 20px;
+        }
+
+        h4{
+            margin-bottom: 15px;
         }
     </style>
 
@@ -76,10 +87,6 @@
                             <a class="nav-link" href="index.html#6">Registration</a>
                         </li>
                     </ul>
-                    <!--        <form class="form-inline my-2 my-lg-0">-->
-                    <!--            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-                    <!--            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-                    <!--        </form>-->
                 </div>
             </nav>
         </div>
@@ -100,9 +107,9 @@
             <h3>Lectures Introduction</h3>
             <hr>
             <div class="col-15">
-                <h4>Prof. Ana Cavalcanti</h4><br>
+                <h4>Prof. Ana Cavalcanti</h4>
                 <p>
-                    <ddd><img src="imgT/lecA.png" width="180px" style="margin-left: 10px" /></ddd>
+                    <img src="imgT/lecA.png" width="180px" class="photo"/>
                     Ana Cavalcanti (University of York) is Professor of Software Verification and Royal Academy of Engineering Chair
                     in Emerging Technologies working on Software Engineering for Robotics: modelling, validation, simulation, and testing.
                     She currently leads the RoboStar research group at the University of York. She held a Royal Society-Wolfson Research
@@ -122,12 +129,13 @@
                     but tool-independent, notations for design and simulation use state machines, differential equations, and
                     controlled English to specify behavior.
                     This course will be co-lectured by Gustavo Carvalho, Matt Windsor, Alvaro Miyazawa, James Baxter and Pedro Ribeiro from University of York.
-                </p><hr><br>
-
+                </p>
+            </div>
+            <hr>
+            <div class="col-15">
                 <h4>Prof. Jim Woodcock</h4>
-                <br>
                 <P>
-                    <ddd><img src="imgT/lecJ.png" width="180px" style="margin-left: 20px;margin-bottom: 10px" /></ddd>
+                    <img src="imgT/lecJ.png" width="180px" class="photo" />
                     Jim Woodcock FREng is the Professor of Software Engineering at the University of York. He holds two additional
                     posts: he is a Professor of Digital Twins at Aarhus University in Denmark and a 1,000-talents Professor of
                     Cyber-Physical Systems (CPS) at Southwest University in Chongqing. He is an award-winning researcher with
@@ -148,36 +156,36 @@
                 </P>
                 <h5>An introduction to modelling and verification in Isabelle/HOL</h5>
                 <p>The course consists of three sessions. Each session consists of three 1-hour lectures.
-                    <ul>
-                        <li>Session 1 Introduction to Isabelle:
-                            <ul>
-                                <li>Getting started with Isabelle/HOL.</li>
-                                <li>Functional programming in Isabelle.</li>
-                                <li>Isar: intelligible semi-automated reasoning.</li>
-                            </ul>
-                        </li>
-                        <li>Session 2 Logic and mathematical data types in Isabelle:
-                            <ul>
-                                <li>Natural deduction.</li>
-                                <li>Predicate quantifiers.</li>
-                                <li>Sets and functions.</li>
-                            </ul>
-                        </li>
-                        <li>Session 3 Specification and Verification in Isabelle:
-                            <ul>
-                                <li>Automation and Sledgehammer.</li>
-                                <li>Tacticals.</li>
-                                <li>ZMachines: specification and animation.</li>
-                            </ul>
-                        </li>
-                    </ul>
+                <ul>
+                    <li>Session 1 Introduction to Isabelle:
+                        <ul>
+                            <li>Getting started with Isabelle/HOL.</li>
+                            <li>Functional programming in Isabelle.</li>
+                            <li>Isar: intelligible semi-automated reasoning.</li>
+                        </ul>
+                    </li>
+                    <li>Session 2 Logic and mathematical data types in Isabelle:
+                        <ul>
+                            <li>Natural deduction.</li>
+                            <li>Predicate quantifiers.</li>
+                            <li>Sets and functions.</li>
+                        </ul>
+                    </li>
+                    <li>Session 3 Specification and Verification in Isabelle:
+                        <ul>
+                            <li>Automation and Sledgehammer.</li>
+                            <li>Tacticals.</li>
+                            <li>ZMachines: specification and animation.</li>
+                        </ul>
+                    </li>
+                </ul>
                 </p>
-                <hr><br>
-
+            </div>
+            <hr>
+            <div class="col-15">
                 <h4>Prof. Xin Chen</h4>
-                <br>
                 <P>
-                    <ddd><img src="imgT/lecCX.png" width="200px" style="margin-left: 20px;margin-bottom: 10px" /></ddd>
+                    <img src="imgT/lecCX.png" class="photo" width="200px" height="130px"/>
                     Dr. Xin Chen is an assistant professor in the Department of Computer Science at the University of
                     Dayton. He received his Ph.D. in Computer Science from RWTH Aachen University in 2015, and was a
                     postdoctoral research associate at the University of Colorado Boulder. Dr. Chen is primarily
@@ -185,7 +193,7 @@
                     resilient control of autonomous systems. He is the primary developer of the CPS formal verification
                     tool Flow*. His research work is funded by the U.S. Air Force Research Laboratory.
                 </P>
-                <h5>The reachability analysis of Neural Network Controlled Systems (NNCS)</h5>
+                <h5>The reachability analysis of an important class of learning-enabled CPS</h5>
                 <p>Formal verification of Cyber-Physical Systems (CPS) has been a significant research topic due to the
                     increasing use of computer controlled systems in safety-critical areas, such as power systems,
                     medical devices and autonomous vehicles. However, such tasks are often very difficult because of
@@ -206,51 +214,6 @@
                     feedforward neural networks and its use in computing accurate reachable sets for NNCS. Besides,
                     a short course of using Flow* and POLAR will also be provided.
                 </p>
-<!--                <li><STRONG><mark>Program Verification: a 70+-Year History</mark>(Prof.  Moshe Y. Vardi, Keynote Talk I of TASE2021)</STRONG></li>-->
-<!--                <p>-->
-<!--                    The year 2019 sees the 70th anniversary to Alan Turing's 1949 paper, "Checking a Large Routine" and the 50th anniversary-->
-<!--                    of Tony Hoare's paper, "An Axiomatic Basis for Compuer Programming". In the latter paper, Hoare stated: "When the correctness-->
-<!--                    of a program, its compiler, and the hardware of the computer have all been established with mathematical certainty, it will-->
-<!--                    be possible to place great reliance on the results of the program, and predict their properties with a confidence limited-->
-<!--                    only by the reliability of the electronics." In this talk, I will review the history of this vision, describing the obstacles,-->
-<!--                    the controversies, and progress milestones. I will conclude with the description of both impressive progress and dramatic-->
-<!--                    failures exhibited over the past few years.-->
-<!--                </p>-->
-<!--                <p>-->
-<!--                    <ddd><img src="imgT/tlkMos.png" width="180px" /></ddd>-->
-<!--                    Moshe Y. Vardi is University Professor and the George Distinguished Service Professor in Computational Engineering at Rice-->
-<!--                    University. He is the recipient of several awards, including the ACM SIGACT Goedel Prize, the ACM Kanellakis Award, the ACM-->
-<!--                    SIGMOD Codd Award, the Knuth Prize, the IEEE Computer Society Goode Award, and the EATCS Distinguished Achievements Award.-->
-<!--                    He is the author and co-author of over 650 papers, as well as two books. He is a Guggenheim Fellows as well as fellow of several-->
-<!--                    societies, and a member of several academies, including the US National Academy of Engineering and National Academy of Science.-->
-<!--                    He holds seven honorary doctorates. He is a Senior Editor of the Communications of the ACM, the premier publication in computing.-->
-<!--                </p>-->
-
-<!--                <li><STRONG><mark>Advances of Proof Scores in CafeOBJ</mark>(Prof.  Kokichi Futatsugi, Keynote Talk II of TASE2021)</STRONG></li>-->
-<!--                <p>-->
-<!--                    Critical flaws continue to exist at the level of domain, requirement, and/or design specification, and specification verification,-->
-<!--                    i.e., to prove a specification has desirable properties, is still one of the most important challenges in software engineering.-->
-<!--                    CafeOBJ is an executable algebraic specification language system that can be used for specification verification by writing proof-->
-<!--                    scores. Domain/requirement/design engineers using CafeOBJ are expected to construct proof scores for getting reliable specifications-->
-<!--                    . CafeOBJ is a sister language of OBJ and proof scores have been brought up by the OBJ/CafeOBJ community.-->
-<!--                    Specification verification is theorem proving where the specification is a set of axioms and the desirable properties are theorems.-->
-<!--                    Fully automatic theorem proving often fails to convey an understanding of proof, and one should seek to make optimal use of the respective abilities of humans and computers, so that computers do the tedious formal calculations, and humans do the high level planning. Proof scores intend to meet these goals by hiding the detailed calculations done by machines while revealing the proof plan created by humans.-->
-<!--                    This talk explains advances of proof scores for specification verification in CafeOBJ.-->
-<!--                </p>-->
-<!--                <p>-->
-<!--                    <ddd><img src="imgT/tlkKok.png" width="180px" /></ddd>-->
-<!--                    Kokichi Futatsugi is a Professor Emeritus at Japan Advanced Institute of Science and Technology (JAIST), Nomi, Ishikawa, Japan.-->
-<!--                    He worked for JAIST from 1993 to 2017 as a Professor, a Dean of School, an Adviser of President, and a Specially Assigned Professor.-->
-<!--                    Before getting a professorship at JAIST, he worked for Electrotechnical Laboratory (ETL, the national research institute for-->
-<!--                    electronics and informatics) from 1975 to 1993 as a Researcher, a Section Chief, and a Chief Researcher of Institute.-->
-<!--                    He worked for SRI International (Stanford Research Institute) in California as an International Fellow from 1983 to 1984 and-->
-<!--                    designed and implemented OBJ algebraic specification language system. From around mid nineties he headed several research projects-->
-<!--                    funded by Japanese Government for developing CafeOBJ algebraic specification language system. Professor Futatsugi served for many-->
-<!--                    international scholarly activities including a Program Committee Chair of 20th International Conference of Software Engineering-->
-<!--                    (ICSE 1998) and an Associate Editor of ACM Transactions of Software Engineering and Methodology (TOSEM) from 1995 to 2002.-->
-<!--                    He is an Honorary Member of Japan Society of Software Science and Technology since 2019.-->
-<!--                </p>-->
-
             </div>
         </div>
     </div>
