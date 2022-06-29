@@ -13,78 +13,73 @@
         .col-lg-12 {
             padding: 0
         }
+
+        .col-15 {
+            padding: 10px;
+        }
+
         li{
             margin-left: 20px;
+        }
+
+        .photo{
+            float:right;
+            margin-bottom: 5px;
+            margin-left: 20px;
+        }
+
+        h4{
+            margin-bottom: 15px;
+        }
+        
+        .pp{
+            padding-right: 20px;
         }
     </style>
 </head>
 
 <body style="background-color: #c1cbd7">
 
-
-    <!--<div style="background:url('img/math2.jpg') no-repeat">-->
-    <!--    添加文字...添加文字...添加文字...-->
-    <!--</div>-->
-
     <div class="container" style="background-color: white">
         <div class="row">
             <a name="home"></a>
             <div class="col-lg-12">
                 <img src="imgT/banner2022.png" class="img-fluid" alt="...">
-                <!--            <span style="position: relative;  color: white"><h3><mark>Summer School 2020 on Formal Methods for Trustworthy Artificial Intelligence</mark></h3></span>-->
-                <!--            <span style="position: relative; color: white"><h5><mark>July 13-17, 2020, Shanghai, China</mark></h5></span>-->
             </div>
         </div>
     </div>
 
     <div class="container" style="background-color: #fff">
         <div class="row">
-
             <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a class="navbar-brand" href="http://www.sei.ecnu.edu.cn/">SEI-ECNU</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
+    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="index.html#home">Home <span
+                                        class="sr-only">(current)</span></a>
                             </li>
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link" href="news.html" style="color: red">News</a>-->
-<!--                            </li>-->
                             <li class="nav-item">
                                 <a class="nav-link" href="lectures.html">Lecturers</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="schedule.html">Schedule</a>
                             </li>
+    
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="materials.html">Materials</a>
-<!--                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"-->
-<!--                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                                        Materials-->
-<!--                                    </a>-->
-<!--                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-<!--                                        <a class="dropdown-item" href="https://robostar.cs.york.ac.uk/">RoboStar</a>-->
-<!--                                        <a class="dropdown-item" href="http://concrete-semantics.org/concrete-semantics.pdf">Concrete Semantics</a>-->
-<!--                                    </div>-->
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#6">Registration</a>
+                                <a class="nav-link" href="index.html#6">Registration</a>
                             </li>
-<!--                            <li class="nav-item">-->
-<!--                                <a class="nav-link disabled" href="#">About</a>-->
-<!--                            </li>-->
                         </ul>
-                        <!--        <form class="form-inline my-2 my-lg-0">-->
-                        <!--            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-                        <!--            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-                        <!--        </form>-->
                     </div>
                 </nav>
             </div>
@@ -132,19 +127,9 @@
                     <a name="1"></a>
                     <h3>News</h3>
                     <hr>
-                    <p>To be updated.</p>
-<!--                    <strong>-->
-<!--                        <p>-->
-<!--                            For more up-to-date information, please <a href="news.html" style="color: red;">click here.</a>-->
-<!--                        </p>-->
-<!--                    </strong>-->
-                    <!--                    <P>2022-07-19 <STRONG style="color: rgb(254,0,0)">NEW! </STRONG>-->
-                    <!--                        <A href="schedule.html">The information of lecturer Kristin Yvonne Rozier and her course can be found at Schedule page. </A></P>-->
-                    <!-- <P>2020-?-? <STRONG style="color: rgb(254,0,0)">NEW! </STRONG>
-                        <A href="docs/summerschool2020(2).pdf">Announcement can be downloaded!. </A></P> -->
-                    <!-- <P>2020-?-? <STRONG style="color: rgb(254,0,0)">NEW! </STRONG>
-                        <A href="#4">Registration is open now! </A></P>
-                    </P> -->
+                    <ul>
+                        <li>2022-06-29: The registration of the summer school is open until July 15, 2022 <b style="color: red;">!!</b></li>
+                    </ul>
                 </div>
             </div>
 
@@ -154,7 +139,7 @@
                     <a name="2"></a>
                     <h3>Introduction</h3>
                     <hr>
-                    <P>The International Summer School on Trustworthy Software is initiated in 2004 by Professor Jifeng
+                    <P class="pp">The International Summer School on Trustworthy Software is initiated in 2004 by Professor Jifeng
                         He, academician of Chinese Academy of Sciences and founding dean of the School of Software
                         Engineering of East China Normal University. The summer school aims to provide a platform for
                         graduate students and young researchers in computer science or software engineering to learn
@@ -162,22 +147,8 @@
                         3-5 international experts to offer excellent courses for the audients. It has been successfully
                         held for 18 consecutive years in Shanghai, China.
                     </P>
-                    <p>The 18th summer school focuses on the topic "Formal Verification of Trustworthy AI Systems" and
+                    <p class="pp">The 18th summer school focuses on the topic "Formal Verification of Trustworthy AI Systems" and
                         carries out a week-long activity in this summer.</p>
-    <!--                <p>This year, the Trusted Software International Summer School will focus on "Formal Methods and Artificial Intelligence"-->
-    <!--                     and carry out a week-long activity. In addition, the attendees of the summer school will also have the opportunity -->
-    <!--                     to link to two keynote sessions and all academic sessions on Aug 25-26 from the international conference -->
-    <!--                     <a href = "https://tase2021.github.io/">TASE 2021: International Symposium on Theoretical Aspects of Software Engineering</a>.</p>-->
-                    <!--<p>This year, the Trusted Software International Summer School will focus on "Formal Methods and
-                        Artificial Intelligence" and carry out a week-long activity.This summer school will also have the
-                        opportunity to listen to the <a href="https://tase2021.github.io/">TASE 2021:
-                        International Symposium on Theoretical Aspects of Software Engineering</a> report Yo~
-                    </P>-->
-                    <!-- <STRONG>You can download the Summer schedule 2021 here for <a href="docs/summerschool2020(2).pdf"
-                            class="download" style="color: rgb(36,156,236)">English Version</a>
-                    </STRONG> -->
-                    <!--and <a href="..." class="download" style="color: #c1cbd7">Chinese</a> version.-->
-
                 </div>
             </div>
 
@@ -189,7 +160,6 @@
                     <hr>
                     <UL>
                         <LI>Deadline for application: <strong style="margin-left: 10px">2022-07-15</strong></LI>
-                        <!-- <LI>Registration Date: 2021-?-?</LI> -->
                         <LI>Summer School: <strong style="margin-left: 10px">2022-08-15 -- 2022-08-20</strong></LI>
                     </UL>
                 </div>
@@ -201,7 +171,7 @@
                     <h6><br></h6>
                     <h3>Lecturers</h3>
                     <hr>
-                    <p>We are delighted to invite the following world-leading computer scientists to introduce their latest results
+                    <p class="pp">We are delighted to invite the following world-leading computer scientists to introduce their latest results
                         towards formal methods for Trustworthy Systems.
                     </p>
                     <ul>
@@ -209,57 +179,9 @@
                         <li>Jim Woodcock, University of York</li>
                         <li>Xin Chen, University of Dayton</li>
                     </ul>
-                    <p>The details of the lecturers and their courses can be
-                        <a href="lectures.html" style="color: dodgerblue;">find here.</a></p>
-
-
-
-<!--                    <ul>-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-md-6 col-lg-2">-->
-
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Ana Cavalcanti, University of York<br><br>-->
-<!--                                    <img src="imgT/lecA.png" alt="" class="img-fluid img-thumbnail" width="250" height="250">-->
-<!--                                </li>-->
-<!--                                <br>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Jim Woodcock, University of York<br><br>-->
-<!--                                    <img src="imgT/lecJ.png" alt="" class="img-fluid img-thumbnail" width="250" height="250">-->
-<!--                                </li>-->
-<!--                                <br>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-2">-->
-
-<!--                            </div>-->
-<!--                            &lt;!&ndash; <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Xiaowei Huang, Liverpool University <br><br>-->
-<!--                                    <img src="img/XiaoweiHuang.png" alt="" class="img-fluid img-thumbnail" width="200"></li>-->
-<!--                                <br>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Guy Katz, Hebrew University of Jerusalem<br><br>-->
-<!--                                    <img src="img/Guy.jpg" alt="" class="img-fluid img-thumbnail" width="210"></li><br>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Xuejun Wen, Shield Lab, Huawei<br><br>-->
-<!--                                    <img src="img/wen.jpg" alt="" class="img-fluid img-thumbnail" width="220"></li><br>-->
-<!--                            </div>-->
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Ting Dai, Shield Lab, Huawei<br><br>-->
-<!--                                    <img src="img/tingdai.jpg" alt="" class="img-fluid img-thumbnail" width="200"></li><br>-->
-<!--                            </div>-->
-
-<!--                            <div class="col-md-6 col-lg-4">-->
-<!--                                <li>Chengqiang Huang, Huawei<br><br>-->
-<!--                                    <img src="img/chengqianghuang.png" alt="" class="img-fluid img-thumbnail" width="200">-->
-<!--                                </li><br>-->
-<!--                            </div> &ndash;&gt;-->
-<!--                        </div>-->
-<!--                    </ul>-->
-                    <!--<p>More lecturers are coming...</p>-->
+                    <p class="pp">The details of the lecturers and their courses can be
+                        <a href="lectures.html" style="color: dodgerblue;">find here.</a>
+                    </p>
                 </div>
             </div>
 
@@ -269,9 +191,9 @@
                     <a name="5"></a>
                     <h3>Audience</h3>
                     <hr>
-                    <P>Courses will be delivered in English. Students are expected to be (but are not limited to)
+                    <P class="pp">Courses will be delivered in English. Students are expected to be (but are not limited to)
                         graduate students in Computer Science, Software Engineering or Mathematics.
-                    <p>
+                    <p class="pp">
                         Due to the coronavirus crisis, all the lectures would be given online virtually in this year.
                         Audiences are required to prepare a laptop in advance and connect to the Internet. We would use VooV
                         Meeting/腾讯会议 to deliver the lectures online. The meeting information will be provided
@@ -286,10 +208,8 @@
                     <a name="6"></a>
                     <h3>Registration</h3>
                     <hr>
-                    <!-- <p>QR code to be updated.</p> -->
-                    <p><strong>You can scan the QR code below to sign up!</strong></p>-->
+                    <p>You can scan the QR code below to sign up!</p>-->
                     <img alt="" src="imgT/2022qrcode.png" style="height:100px; width:100px;">
-
                 </div>
             </div>
 
