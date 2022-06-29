@@ -34,6 +34,9 @@
         h4{
             margin-bottom: 15px;
         }
+        a{
+            text-decoration: none; /* 去除默认的下划线 */
+        }
     </style>
 
 </head>
@@ -128,7 +131,13 @@
                     with model checking, theorem proving, and automatic test generation for simulation. Diagrammatic domain-specific,
                     but tool-independent, notations for design and simulation use state machines, differential equations, and
                     controlled English to specify behavior.
-                    This course will be co-lectured by Gustavo Carvalho, Matt Windsor, Alvaro Miyazawa, James Baxter and Pedro Ribeiro from University of York.
+                    This course will be co-lectured by
+                    <a href="assis.html">Pedro Ribeiro </a>,
+                    <a href="assis.html">James Baxter </a>,
+                    <a href="assis.html">Alvaro Miyazawa </a>,  
+                    <a href="assis.html">Matt Windsor </a>and
+                    <a href="assis.html">Gustavo Carvalho </a>
+                    from University of York.
                 </p>
             </div>
             <hr>
@@ -218,6 +227,16 @@
         </div>
     </div>
 </div>
+<script>
+    //鼠标进入
+    function mouseOver(x){
+      document.getElementById('tag').style.display = 'block';
+    }
+    //鼠标离开
+    function mouseOut(x){
+      document.getElementById('tag').style.display = 'none';
+    }
+  </script>
 <script src="lib/js/jquery-3.3.1.js"></script>
 <script src="lib/js/popper.js"></script>
 <script src="lib/js/bootstrap.js"></script>
